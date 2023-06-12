@@ -6,7 +6,7 @@ jobs:
   build:
     docker:
       # Primary container image where all steps run
-      - image: circleci/python:3.9
+      - image: cimg/python:3.9
 
     working_directory: ~/repo
 
